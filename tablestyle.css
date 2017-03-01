@@ -1,0 +1,197 @@
+
+  .container{
+    width:504px;
+    height:544px;
+    background-color:#f2f2f2;
+    padding:0px;
+  }
+  .headbox{
+    height:48px;
+    width:504px;
+    background-color: powderblue;
+    border-bottom:solid black 1px;
+    clear:bottom;
+  }
+  .head1{
+    height:44px;
+    width:133px;
+    background-color:#f2f2f2;
+    margin:0;
+    position: absolute;
+    border-right: solid black 8px;
+    border-bottom:solid black 4px;
+  }
+  .head2{
+    height:44px;
+    width: 320px;
+    background-color:#f2f2f2;
+    float:left;
+    border-bottom:solid black 4px;
+    border-right:solid black 5px;
+    border-left:solid black 9px;
+  }
+  .head3{
+    height:44px;
+    width:165px;
+    background-color:#f2d95c;
+    float:left;
+    border-left: solid black 5px;
+    border-bottom:solid black 4px;
+  }
+  .column{
+    height:496px;
+    width:44px;
+    margin-top:0px;
+    border-right:solid black 4px;
+    position:absolute;
+    padding:0px;
+  }
+  .columntop{
+    padding:0px;
+    width:44px;
+    height:124px;
+    background-color:#f2f2f2;
+    border-top:solid black 6px;
+    border-right: black solid 0px;
+    border-bottom: black solid 5px;
+  }
+  .columnmid{
+    padding:0px;
+    width:44px;
+    height:195px;
+    background-color:#f2f2f2;
+    border-bottom:solid black 5px;
+    border-top:solid black 4px;
+    border-right:solid black px;
+  }
+  .columnfoot{
+    padding:0px;
+    width:44px;
+    height:153px;
+    background-color:#f2d95c;
+    border-top: solid black 5px;
+    border-right: solid black 0px;
+  }
+  .square{
+    padding:0px;
+    margin-top:;
+    width:322px;
+    height:265px;
+    background-color:red;
+    border:solid black 6px;
+    float:left;
+  }
+  .yellowsquare{
+    padding:0px;
+    margin-top:0px;
+    margin-left:334px;
+    height:129px;
+    width:166px;
+    background-color:#f2d95c;
+    border-left: solid black 4px;
+    border-top: solid black 5px;
+    border-bottom: solid black 5px;
+  }
+  .splitsquare{
+  padding:0px;
+    margin-top:0px;
+    margin-left:334px;
+    height:134px;
+    width:168px;
+    background-color:powderblue;
+    border: solid black 0px;
+  }
+  .semisquare1{
+    padding:0px;
+    margin:0px;
+    height:130px;
+    width:78px;
+    background-color:#f2f2f2;
+    border:black solid 4px;
+    float:left;
+  }
+  .semisquare2{
+  padding:0px;
+    margin:0px;
+    height:133px;
+    width:77px;
+    background-color:#f2f2f2;
+    border-left:black solid 5px;
+    border-top; black solid 5px;
+    border-bottom:black solid 5px;
+    float:left;  
+  }
+  .blacksquare{
+  padding:0px;
+    margin:0px;
+    height:130px;
+    width:190px;
+    background-color:black;
+    border-right:black solid 1px;
+    border-bottom:black solid 1px;
+    float:left;  
+  }
+  .splitsquarehorizontal{
+    padding:0px;
+    margin:0px;
+    height:134px;
+    width:138px;
+    background-color:#f2f2f2;
+    border:black solid 0px;
+    float:left;
+  }
+  .semisquarehorizontal{
+    padding:0px;
+    margin:0px;
+    height:54px;
+    width:134px;
+    background-color:#f2f2f2;
+    border:black solid 5px;
+    float:left;
+  }
+  .semiblock{
+    padding:0px;
+    margin:0px;
+    height:53px;
+    width:164px;
+    background-color:#f2f2f2;
+    border-top:black solid 5px;
+    border-bottom:black solid 5px;
+    border-left:black solid 9px;
+    float:left;
+  }
+  .blueblock{
+   padding:0px;
+    margin:0px;
+    height:102px;
+    width:164px;
+    background-color:#084e8c;
+    border-top:black solid 5px;
+    border-bottom:black solid 5px;
+    border-left:black solid 9px;
+    float:left; 
+  }
+  .semiblockbottom{
+   padding:0px;
+    margin-left:48px;
+    margin-top:-45px;
+    height:85px;
+    width:136px;
+    background-color:#f2f2f2;
+    border-top:black solid 4px;
+    border-right:black solid 8px;
+    border-left:black solid 5px;
+    float:left;
+     }
+     .blacksemiblock{
+     padding:0px;
+    margin-top:-93px;
+    margin-left:191px;
+    height:44px;
+    width:139px;
+    background-color:black;
+    border-right:black solid 1px;
+    border-bottom:black solid 3px;
+    border-top:black solid 2px;
+        float:left;
+     }
