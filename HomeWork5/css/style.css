@@ -1,0 +1,258 @@
+body {
+    background-color: black;
+    background: url(../ps.jpg);
+    background-repeat: no-repeat;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+}
+.nav{
+                margin-top:-7px;
+                margin-left:-10px;
+                padding: 2px 20px 0 0;
+                list-style: none;
+                width:100%;
+                height: 38px;
+                background-color: #004e99;
+              
+            }
+             
+            li.item{
+                display: block;
+                float:right;
+                margin-right:0px;
+                height:36px;
+                text-decoration: none;
+                padding: 3px 10px 0px 10px;
+
+            }
+            li.item:hover{
+                background-color: #1aacde;
+            }
+            
+      li.item-bordered{ 
+      	display: block;
+        float:right;
+        color:#ffffff;
+        margin-right:0px;
+        padding: 3px 5px 1px 1px;
+        height:34px;  
+        border-left: solid 1.5px  #1aacde; 
+        text-align: right; 
+      }
+      li.item-bordered:hover{
+        background-color: rgb(84,168,226);
+        height:34px; 
+        padding-bottom: 0px;
+        text-align: right;
+        }
+
+      .link{
+        padding-top: 0px;
+        text-decoration:none;
+        color:rgb(84,168,226);
+        height:0px;
+        font-family: Tahoma;
+        font-size: 14px;
+        font-weight: 100;
+        text-align: center;
+      }
+      .link:hover{
+        padding-top: 0px;
+        color:white;
+        background-color:#1aacde;
+        text-decoration: none;
+        font-family: Tahoma;
+        font-size: 14px;
+        font-weight: 100px;
+        text-align: center; 
+      }
+      
+      .link-bordered{
+        padding-top: 0px;
+       text-decoration:none;
+       color:#ffffff;
+       font-family: Tahoma;
+       font-size: 14px;
+       font-weight: 100;
+       text-align: center; 
+       }
+      .link-bordered:hover{
+       text-decoration:none;
+       color:#ffffff;
+       font-family: Tahoma;
+       font-size: 14px;
+       font-weight: 100;
+       text-align: center; 
+      }
+       .link1{
+       	margin-right: 0px;
+        color:white;
+        background-color:;
+        text-decoration: none;
+        font-family: Tahoma;
+        font-size: 14px;
+        font-weight: 100px;
+        text-align: center;
+      }
+      .link1:hover{
+      	margin-right: 0px;
+        color:white;
+        background-color:;
+        text-decoration: underline;
+        font-family: Tahoma;
+        font-size: 14px;
+        font-weight: 100px;
+        text-align: center;
+      }
+      
+      p{
+       color:#ffffff;
+       font-family: Tahoma;
+       font-size: 16px;
+       font-weight: 100;
+      }/*end navbar style*/
+      .container{
+          float:left;
+          padding: 0px;
+            width:560px;
+            height:613px;
+          position:relative;
+          margin-top: 5%;
+          margin-bottom: 2%;
+          margin-left:30%;
+          background: rgba(0, 0, 0, 0.8);
+          background-color: rgba(10, 10, 10, 0.6);
+        }
+        .title{
+          width:558px;
+          height:60px;
+          padding-top:18px;
+          border-bottom:solid rgb(220,220,220) 2px;
+          margin-right:340px;
+          float:left;
+            font-family: Tahoma;
+            color:  #ffffff;
+            font-size: 24px;
+            font-weight: ;
+            line-height: 16px;
+        }
+        .facebook{
+         width: 276px;
+         height:35px;
+         border: solid black 0px;
+         background-image: ;
+         margin-left:140px;
+         margin-top:95px;
+         padding:4px;
+         border-radius: 0px;
+        }
+        .ou{
+         width:276px;
+         height:35px;
+         margin-left: 140px;
+         margin-top: 30px;
+         }
+         .img{
+         position: relative;
+         }
+         .text{
+         position: absolute;
+         margin-top: -24px;
+         margin-left: 128px;
+         font-size: 20px;
+         font-weight: 400;
+         font-family: Tahoma;
+         color:#cccccc;
+         }
+                       
+    .form{
+      margin-top:20px;
+        padding:0px;
+        width:560px;
+        height:350px;
+        border:0px;
+     }
+     #input{
+        box-shadow: 0px 1px 0px 0px #4b4b4b;
+        width: 276px;
+        height: 35px;
+      font-family: Tahoma;
+        color:  #cccccc;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16px;
+        text-align: left;
+        margin-left: 140px;
+        margin-bottom: 18px;
+        background-color: black;
+        padding-left: 14px;
+        border:0px;
+     }
+     #inputfn{
+        box-shadow: 0px 1px 0px 0px #4b4b4b;
+        width: 276px;
+        height: 35px;
+        font-family: Tahoma;
+        color:  #cccccc;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16px;
+        text-align: left;
+        margin-left: 140px;
+        margin-bottom: 18px;
+        background-color: rgb(0, 77, 139);
+        padding-left: 14px;
+        border:0px;
+     }
+     #inputsubmit{
+        width:149px;
+        height:35px;
+        font-size: 14px;
+        padding:0px;
+        margin-left:180px;
+        margin-bottom: 15px;
+        background: rgb(32,124,202); /* Old browsers */
+background: -moz-linear-gradient(top, rgb(32,124,202) 0%, rgb(32,124,202) 0%, rgb(125,185,232) 0%, rgb(32,124,202) 37%, rgb(30,87,153) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgb(32,124,202) 0%,rgb(32,124,202) 0%,rgb(125,185,232) 0%,rgb(32,124,202) 37%,rgb(30,87,153) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgb(32,124,202) 0%,rgb(32,124,202) 0%,rgb(125,185,232) 0%,rgb(32,124,202) 37%,rgb(30,87,153) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#207cca', endColorstr='#1e5799',GradientType=0 ); /* IE6-9 */ 
+        font-family: Tahoma;
+        color:  #ffffff;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16px;
+        text-align: center; 
+        border:0px;
+       }
+     .checkbox{
+        font-family: Tahoma;
+        color:  #cccccc;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16px;
+        text-align: left;
+        margin-left: 142px;
+        margin-bottom: 12px;
+     }
+      
+     .footer{
+          color: #ffffff;
+          margin-top: 5px;
+          margin-left:170px;
+          width:240px;
+          height:20px;
+            }
+            p{
+            	font-size: 8px;
+            	color: #ffffff;
+            	text-align: center;
+
+            }
+            .spot{
+            	margin-top:40px;
+            }
+            
+    /* end container
+      
