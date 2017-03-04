@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+   <style>
+.MyDiv {
+  width: 600px;
+  height: 700px;
+  margin-left: 130px;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 0px;
+  color: black;
+  font-size: 22px;
+  padding-left:50px;
+  background-color: #ffffff;
+}
+p{
+  align-text: auto;
+}
+ul {
+list-style-type:square;
+
+}
+
+button{
+width:180px;
+height:50px;
+border: solid black 2px;
+background-color: powderblue;
+font-size:18px;
+margin-top:100px;
+margin-left:100px;
+margin-left:30%;
+}
+
+</style>
+  </head>
+
+  <body>
+    
+    <script>
+  var div = document.createElement('div');
+    div.className = "MyDiv";
+    document.body.appendChild(div);
+
+    var p = document.createElement('p');
+    div.innerHTML = "<center>Тест по программированию</center>";
+    div.appendChild(p);
+    
+    var gen = {
+               title : 'programming test',
+      questions : ['Вопрос №1', 'Вопрос №2', 'Вопрос №3'],
+      answers : [['Вариант ответа №1', 'Вариант ответа №2', 'Вариант ответа №3'], 
+      ['Вариант ответа №1', 'Вариант ответа №2', 'Вариант ответа №3'],
+      ['Вариант ответа №1', 'Вариант ответа №2', 'Вариант ответа №3']],
+      
+      rmet : function(){
+        for (var i=0; i<3; i++){
+         console.log(i);
+         p = document.createElement('p');
+         p.innerHTML = this.questions[i];
+         div.appendChild(p);
+         ul = document.createElement('ul');
+         p.appendChild(ul);
+
+        for (var j=0; j<3; j++){
+           li = document.createElement('li');
+           chk = document.createElement('input');
+           chk.type = 'radio';
+           chk.name = 'f' + i;
+            ul.appendChild(li);
+            li.appendChild(chk);
+            textElem = document.createTextNode(this.answers[i][j]);
+            li.appendChild(textElem);
+         }
+  }
+        }
+      }
+       
+      gen.rmet();
+      
+      var btn = document.createElement("button");
+      div.appendChild(btn);
+      textElem = document.createTextNode('Проверить мои результаты');
+      btn.appendChild(textElem);
+      
+    </script>  
+  </body>
+
+</html>
