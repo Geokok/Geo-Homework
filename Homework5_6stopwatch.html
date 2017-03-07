@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<style>
+.tablo{
+width: auto;
+background-color:rgb(230,233,255);
+height:95px;
+padding-left: 40%;
+padding-top:25px;
+font-size:60px;
+line-height:60px;
+border: solid black 2px;
+border-radius: 10px;
+clear:both;
+}
+.control{
+width:100%;
+margin-top:40px;
+height:90px;
+padding-top:0px;
+}
+h1{
+margin:0px;
+}
+#start{
+width:32%;
+height:80px;
+margin-left: 5px;
+border:solid black 2px;
+border-radius:10px;
+font-size:35px;
+padding-top:0px;
+padding-bottom:15px;
+background-image:url("http:www.online-stopwatch.com/html5/images/sb.png");
+}
+#stop{
+width:32%;
+height:80px;
+margin-left:18px;
+border:solid black 2px;
+border-radius:10px;
+font-size:35px;
+padding-top:0px;
+padding-bottom:15px;
+background-image:url("http:www.online-stopwatch.com/html5/images/sb2.png");
+}
+#clear{
+width:32%;
+height:80px;
+margin-left:18px;
+border:solid black 2px;
+border-radius:10px;
+font-size:35px;
+padding-top:0px;
+padding-bottom:15px;
+background:red;
+}
+</style>
+</head>
+<body>
+<div class="tablo">
+  <h1><span id="time">00:00</span></h1>
+  </div>
+  <div class="control">
+<button id="start"><p>start<p></button>
+<button id="stop"><p>stop</p></button>
+<button id="clear"><p>clear</p></button>
+  </div>
+<!--html-->
+<script>
+ var h1 = document.getElementsByTagName('h1')[0],
+    start = document.getElementById('start'),
+    stop = document.getElementById('stop'),
+    clear = document.getElementById('clear'),
+    mseconds = 0, seconds = 0, minutes = 0,
+    t;
+
+function increment() {
+    mseconds++;
+    if (mseconds >= 10) {
+        mseconds = 0;
+        seconds++;
+        if (seconds >= 60) {
+            seconds = 0;
+            minutes++;
+        }
+    }
+    
+    h1.textContent = (seconds ? (seconds > 9 ? seconds : "0" + seconds) : "00") + ":" + (mseconds > 9 ? mseconds : "0" + mseconds);
+
+    timer();
+}
+function timer() {
+    t = setTimeout(increment, 100);
+}
+timer();
+
+
+/* Start button */
+start.onclick = timer;
+
+/* Stop button */
+stop.onclick = function() {
+    clearTimeout(t);
+}
+
+/* Clear button */
+clear.onclick = function() {
+    h1.textContent = "00:00";
+    seconds = 0; mseconds = 0;
+}
+</script>
+</body>
+
+</html>
